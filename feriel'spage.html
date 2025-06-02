@@ -1,0 +1,103 @@
+<!DOCTYPE html> <!-- هاد السطر يقول للمتصفح أن الصفحة مكتوبة بلغة HTML 5 -->
+
+<html>       <!--بداية الصفحة كاملة.-->
+
+<head>   <!--جزء الرأس، فيه المعلومات اللي ما تبانش في الصفحة (بحال العنوان و CSS).-->
+
+    <title> FERIEL'S page </title>   <!--عنوان الصفحة اللي يبان في لسان المتصفح (tab).-->
+
+<style>  
+        body {
+    background-color: #ffe6f0 ; /* coleur te3 background */
+    font-family: 'Times New Roman', Times, serif; /* اkhat te3 ktiba*/
+    text-align: center;
+    padding: 30px;  /*يزيد مسافة داخلية 30 بيكسل من كل جهة */
+    color: #333;  /*اللون الأساسي للنص يكون رمادي غامقp */
+    }
+        h1 {
+    color: #4b0082;  /* العنوان الكبير (h1) لونو بنفسجي غامق.*/
+    }
+
+        h2 {
+    margin-top: 40px; /*يزيد مسافة من الفوق (40px) قبل ما يجي العنوان */
+    color: #8b0000;  /*أحمر غامق بزاف */
+    }
+        h3 {
+    color: #4b0082;/* العنوان الصغير (h3) بنفس اللون تاع h1.*/
+        }
+        img {
+    width: 200px; /* يخلي عرض الصورة 200 بيكسل */
+    border-radius: 10px;  /*يخلي الزوايا دائرية بشوية */
+    margin-top: 15px;  /*يزيد مسافة من الفوق للصورة */
+    }
+        ul {
+    list-style-type: square;/* يخلي النقاط مربعات (مش دوائر) */
+    text-align: left; /*  يخلي الكتابة تبدأ من اليسار */
+    display: inline-block; /*يخليها تبان وسط الصفحة رغم أنها نص يساري */
+    margin-top: 10px ;  /* يزيد مسافة من الفوق */
+    }
+        a{
+    margin-top: 15px; /* يزيد مسافة من الفوق */
+    display: inline-block; /*يخلي الرابط يتصرف بحال زر */
+    color: #ff3399; /*اللون وردي قوي */
+    font-weight: bold; /*يجعل النص غليظ */
+    text-decoration: none;/* يشطب الخط اللي تحت الرابط */
+        }
+        a:hover{
+            color :white; /*اللون يولي أبيض  كي تديري souris فوق الرابط:*/
+
+            background-color: darkgray; /*لخلفية رمادية */
+            padding: 5px 10px;/* يوسع الحواف */
+            border-radius: 5px;/* لزوايا تولي دائرية */
+
+
+        }
+        button {
+            background-color: hotpink; /*لون الزر وردي قوي */
+            color: white; 
+            border: none; /*بلا حدود*/
+            padding: 12px 25px; 
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;/* الفأرة تولي يد كي تحومي عليه */
+            transition: background-color 0.3s , transform 0.3s;/* يعطي تأثير ناعم فالتحويل*/
+            margin-top: 20px;
+            display: block;
+            margin: 20px auto;
+        }
+        button:hover{
+            background-color: deeppink; /*كي تديري souris على الزر: اللون يولي وردي أغمق*/
+            transform: scale(1.05); /*لزر يتكبر شوية (zoom خفيف) */
+
+ 
+        }
+</style>
+
+</head> <!--نهاية جزء الرأس.-->
+
+<body> <!-- بداية جسم الصفحة، كلشي اللي يبانو للمستخدم.-->
+
+<h1> i'm feriel </h1>   <!--عنوان كبير: يكتب "i'm feriel".-->
+<p> i want to learn HTML </p>  <!--فقرة صغيرة (paragraphe): تكتب فيها أنك حابة تتعلمي HTML.-->
+<h1> my favorit photo</h1>  <!--  عنوان ثاني كبير: "my favorit photo".-->
+<img src="https://i.pinimg.com/736x/c8/36/e7/c836e74e91aa2a9c356cb2fee6bd4a90.jpg" width="300">    <!--  صورة، جايبة الرابط تاعها من الإنترنت، والعرض 300 بيكسل.-->
+
+
+<h2> this is vedio i like   </h2>  <!--عنوان ثاني أصغر: فيه وصف للفيديو لي يعجبك.-->
+
+<a href="https://www.youtube.com/watch?v=-MwXNWYKZbs" target="_blank">
+    watch my favorit vd 
+</a>
+<h3>my habit </h3>
+<ul>
+    <li>learn programaing</li>
+    <li>Practice HTML & CSS</li>
+    <li>Watch tech videos</li>
+    
+
+</ul>
+<br><br>
+<a href="cvferiel.html"> 
+    <Button>click me !</Button> </a>
+</body>
+</html>
